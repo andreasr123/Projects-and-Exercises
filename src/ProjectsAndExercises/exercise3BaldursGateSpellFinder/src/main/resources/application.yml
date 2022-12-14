@@ -1,0 +1,16 @@
+server:
+  port: 9005
+spring:
+  data:
+    mongodb:
+      uri: mongodb://localhost/spells
+list:
+  spells:
+    - spellName: "Fireball"
+      spellLevel: 1
+      school: "Evocation"
+      description: "The caster sends a fireball which detonates at the determined point and sends out a wave of flames from the center with a 20 ft radius."
+    - spellName: "Magic Missile"
+      spellLevel: 1
+      school: "Evocation"
+      description: "The Caster may send up to five missiles at once to the target that inflicts 1d4+1 points of damage. Number of missiles depends on the level of the magician."
